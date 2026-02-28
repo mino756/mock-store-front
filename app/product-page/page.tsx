@@ -47,6 +47,16 @@ export default function Page() {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
+            <div className="h-20 flex justify-between items-center">
+              <h1 className="font-bold text-lg text-gray-900">
+                Cosmetics Collection
+              </h1>
+              <h4 className="text-gray-600">⭐4.1</h4>
+            </div>
+
+            <h5 className="text-black/80 font-semibold text-sm mb-3">
+              In stock: 22
+            </h5>
             <button className="w-full py-2 text-white rounded-lg bg-pink-400 hover:bg-pink-500 transition-colors duration-300">
               Buy
             </button>
