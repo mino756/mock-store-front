@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+
+body {
+  background: linear-gradient( to bottom, #f8bbff, #ff8f9e);
+  color: var(--foreground);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+/* Smooth Scrolling */
+html {
+  scroll-behavior:smooth;
+}
+
+
+/* ===== Scrollbar Styling ===== */
+
+/* Works in Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;   /* Slim width */
+}
+
+::-webkit-scrollbar-track {
+  background: #ffe4ec; /* Light pink track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffd3e9; /* Pink scrollbar */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffa5ce; /* Darker pink on hover */
+}
+
+
+/* Firefox Support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffa4d2 #ffe4ec;
+}
