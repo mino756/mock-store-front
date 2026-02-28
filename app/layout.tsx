@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gradient-to-br from-pink-400/90 via-pink-300 to-gray-300`}
       ><SpeedInsights/><nav className="flex items-center justify-between px-10 py-2 bg-white/30 backdrop-blur-md shadow-md sticky top-0 z-50">
         <a href="/">
-        <h1 className="text-4xl font-extrabold text-black">Aura</h1>
+        <h1 className="text-lg md:text-4xl font-bold md:font-extrabold text-black">Aura</h1>
         </a>
         <div className="flex gap-8 text-gray-800 border-b border-gray-900/20 text-sm ">
           <Link href="/" className="hover:text-pink-500 transition md:text-lg">
@@ -51,7 +51,7 @@ export default function RootLayout({
         {children}
  
 
-<footer className="bg-gradient-to-br from-pink-200 via-pink-300 to-sky-100   rounded-t-2xl shadow-lg">
+<footer className="bg-gradient-to-br from-pink-200 via-pink-300 to-sky-100">
   <div className="w-full max-w-screen-xl mx-auto px-6 py-12 md:py-16">
     {/* Main Grid Layout */}
     <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-18 mb-10">
@@ -72,10 +72,10 @@ export default function RootLayout({
           Quick Links
         </h3>
         <nav className="flex flex-col space-y-2">
-          <a href="#" className="text-gray-700  hover:text-pink-600 transition-colors text-sm w-fit">About Us</a>
-          <a href="#" className="text-gray-700  hover:text-pink-600 transition-colors text-sm w-fit">Privacy Policy</a>
-          <a href="#" className="text-gray-700  hover:text-pink-600 transition-colors text-sm w-fit">Licensing</a>
-          <a href="#" className="text-gray-700  hover:text-pink-600 transition-colors text-sm w-fit">Contact</a>
+          <a href="/faq" className="text-gray-700  hover:text-pink-600 transition-colors text-sm w-fit">About Us</a>
+          <a href="/privacy-policy" className="text-gray-700  hover:text-pink-600 transition-colors text-sm w-fit">Privacy Policy</a>
+          <a href="/licensing" className="text-gray-700  hover:text-pink-600 transition-colors text-sm w-fit">Licensing</a>
+          <a href="/contact" className="text-gray-700  hover:text-pink-600 transition-colors text-sm w-fit">Contact</a>
         </nav>
       </div>
 
