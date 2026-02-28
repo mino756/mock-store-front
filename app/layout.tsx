@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/dist/client/link";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gradient-to-br from-pink-400/90 via-pink-300 to-gray-300`}
-      ><nav className="flex items-center justify-between px-10 py-2 bg-white/30 backdrop-blur-md shadow-md sticky top-0 z-50">
+      ><SpeedInsights/><nav className="flex items-center justify-between px-10 py-2 bg-white/30 backdrop-blur-md shadow-md sticky top-0 z-50">
         <a href="/">
         <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 bg-clip-text text-transparent  ">Aura</h1>
         </a>
