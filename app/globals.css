@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 
+
 body {
   background: linear-gradient( to bottom, #f8bbff, #ff8f9e);
   color: var(--foreground);

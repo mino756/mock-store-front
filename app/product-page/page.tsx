@@ -43,7 +43,7 @@ export default function Page() {
                 src="/pngtree-3d-beauty-cosmetics-product-design-png-image_3350325-removebg-preview.png"
                 alt="Cosmetics Product"
                 fill
-                loading="lazy"
+                
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
@@ -82,7 +82,7 @@ export default function Page() {
                 src="/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323-removebg-preview.png"
                 alt="Cosmetics Product"
                 fill
-                loading="lazy"
+                
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
@@ -124,7 +124,7 @@ export default function Page() {
                 src="/pngtree-3d-beauty-cosmetics-product-design-png-image_6391025-removebg-preview.png"
                 alt="Cosmetics Product"
                 fill
-                loading="lazy"
+                
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
