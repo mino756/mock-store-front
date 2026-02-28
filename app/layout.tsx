@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gradient-to-br from-pink-400/90 via-pink-300 to-gray-300`}
       ><SpeedInsights/><nav className="flex items-center justify-between px-10 py-2 bg-white/30 backdrop-blur-md shadow-md sticky top-0 z-50">
         <a href="/">
-        <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 bg-clip-text text-transparent  ">Aura</h1>
+        <h1 className="text-4xl font-extrabold text-black">Aura</h1>
         </a>
         <div className="flex gap-8 text-gray-800 border-b border-gray-900/20 text-sm ">
           <Link href="/" className="hover:text-pink-500 transition md:text-lg">
