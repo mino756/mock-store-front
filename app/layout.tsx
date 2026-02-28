@@ -29,7 +29,10 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gradient-to-br from-pink-400/90 via-pink-300 to-gray-300`}
-      ><SpeedInsights/><nav className="flex items-center justify-between px-10 py-2 bg-white/30 backdrop-blur-md shadow-md sticky top-0 z-50">
+      >
+        <SpeedInsights/>
+        <Analytics />
+        <nav className="flex items-center justify-between px-10 py-2 bg-white/30 backdrop-blur-md shadow-md sticky top-0 z-50">
         <a href="/">
         <h1 className="text-lg md:text-4xl font-bold md:font-extrabold text-black">Aura</h1>
         </a>
